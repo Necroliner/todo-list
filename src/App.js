@@ -8,7 +8,8 @@ function App() {
   const initialTodo = [
     { id: 1, title: 'Faire les courses', completed: true, edit: false },
     { id: 2, title: 'Faire la vaisselle', completed: false, edit: false },
-    { id: 3, title: 'Manger du chocolat', completed: false, edit: false }
+    { id: 3, title: 'Manger du chocolat', completed: false, edit: false },
+    { id: 4, title: 'Ranger ma chambre', completed: false, edit: false }
   ];
 
   const [todos, setTodos] = useState(initialTodo);
